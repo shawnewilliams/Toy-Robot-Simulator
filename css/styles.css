@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.canvas-container {
+    display: block;
+    margin: 15px;
+    height: 500px;
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.30);
+}
+
+.controls {
+    align-self: center;
+    margin: 15px;
+}
+
+.commands {
+    display: block;
+    padding: 10px;
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.30);
+    border: none;
+    outline: none;
+    transition: box-shadow .15s;
+}
+
+.commands:focus {
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.45);
+}
+
+.go-btn {
+    display: block;
+    color: white;
+    border-radius: 20px;
+    height: 35px;
+    width: 80px;
+    margin: 10px auto;
+    font-size: 20px;
+    background: #222;
+    border: none;
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.30);
+    cursor: pointer;
+    outline: none;
+    transition: background .15s;
+   
+}
+
+.go-btn:hover {
+    background:rgb(96, 24, 24);
+}
+
+.report {
+    width: 100%;
+    text-align: center;
+}
